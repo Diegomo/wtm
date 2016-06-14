@@ -1,0 +1,31 @@
+body {
+  background: #cfb0b0;
+  font-family: Helvetica Neue;
+  font-size: 16px;
+
+}
+
+.titulo {
+text-align: left;
+}
+
+.container {
+background-color: white;
+border-radius: 5px;
+height: 370px;
+width: 720px !important;
+}
+
+p{
+  color: #B3BBC3;
+}
+
+.caja1 {
+  margin-top: 29px;
+}
+.caja2 {
+  margin-top: 29px
+}
+.pt {
+  margin-top: 16px
+}

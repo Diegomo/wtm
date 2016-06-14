@@ -1,0 +1,45 @@
+body{
+
+font-family: Helvetica Neue;
+color: #333;
+font-size: 16px;
+margin: 0px 8px;
+}
+
+header {
+background : whiteSmoke;
+border-bottom: 1px solid #ddd;
+position: absolute;
+top: 0px;
+width: 100%;
+
+}
+header h1{
+font-size: 20px;
+margin-left: 10px;
+}
+.cajaGris {
+background: white;
+border-radius: 5px;
+padding: 20px;
+}
+
+.cuerpo {
+text-align: center;
+margin-top: 100px;
+margin-left: 41px;
+}
+
+.cuadrado {
+  width: 25%;
+}
+
+p{
+
+ color: #A4A4A4;
+}
+a {
+color: #B404AE;
+}
+
+

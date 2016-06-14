@@ -1,0 +1,49 @@
+.sombreado {
+background: #EEEEEE;
+height: 219px;
+margin: 36px;
+padding: 30px;
+}
+.navbar-default {
+
+height: 36px !important;
+}
+
+.alert-info {
+  margin-top: 254px;
+}
+.alert-danger {
+width: 356px;
+margin: 0 auto;
+}
+
+.login {
+margin-top: 16px;
+width: 356px;
+margin: 0 auto;
+}
+
+.txt {
+  font-size: 13px;
+}
+
+.page-header{
+  background: #EEEEEE;
+
+}
+
+.sombreadoo {
+background: #EEEEEE;
+height: 219px;
+margin: 36px;
+padding: 30px;
+width: 1181px;
+margin-left: 0px;
+position: absolute;
+
+}
+
+.parra {
+position: absolute;
+margin-top: 49px;
+}
