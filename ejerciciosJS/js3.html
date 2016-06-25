@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script>
+  function fizzbuzz()
+
+  {
+
+    var a= document.getElementById("a").value;
+
+      if (a % 5 == 0 && a % 3 == 0 ) {
+        alert("fizzbuzz");
+      }
+      else if (a % 3 == 0){
+        alert("fizz");
+      }
+      else if (a % 5 == 0){
+        alert("buzz");
+      }
+      else {
+        alert(a);
+      }
+  }
+
+  </script>
+</head>
+<body>
+<input id="a" type="text" name="a">
+<input name="multiplo" type="button" onClick="fizzbuzz()" value="multiplo" />
+</body>
+</html>

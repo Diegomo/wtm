@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+
+    function tabla() {
+
+      var n = document.getElementById("n").value;
+
+      for (var i = 0; i <= 10; i++) {
+
+        var result = n * i;
+
+         document.write(result+" ");
+
+      }
+    }
+
+
+  </script>
+
+  <p>ingresa la tabla que quieras</p>
+  <input type="text" id="n" size="3">
+  <input type="button" onClick="tabla()" value="ok">
+  <p id="result"></p>
+
+</body>
+</html>

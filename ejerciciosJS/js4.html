@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+    <script type="text/javascript">
+
+        function fibonacci()
+
+        {
+
+            var n = document.getElementById("n").value;
+
+            var var1 = 0;
+
+            var var2 = 1;
+
+            var var3;
+
+
+
+            document.write(var1+"");
+
+            document.write(var2+"");
+
+
+
+            for(var i=3; i <= n;i++)
+
+            {
+
+                var3 = var1 + var2;
+
+                var1 = var2;
+
+                var2 = var3;
+
+                document.write(var3+" ");
+
+
+            }
+
+
+        }
+
+    </script>
+
+
+</head>
+<body>
+<p>ingresa un numero</p>
+<input type="text" id="n" size="4">
+<input type="button" onClick="fibonacci()" value="fibonacci">
+
+
+    <div>
+
+    <script type="text/javascript">
+
+
+        var valor = document.getElementById("var3").value;
+
+    </script>
+
+    </div>
+
+</body>
+</html>
+
+
+

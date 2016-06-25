@@ -33,10 +33,54 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
   </nav>
-  <div class="container">
-    <div class="seach col-md-4"></div>
-    <div class="btn col-md-4"></div>
-    <div class="fecha col-md-4"></div>
-  </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Buscar">
+                      <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Nueva Transaccion</button>
+            </form>
+
+            <!-- Single button -->
+            <div class="row">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Agosto 2014 <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Septiembre 2014</a></li>
+                    <li><a href="#">Octubre 2014</a></li>
+                    <li><a href="#">Noviembre 2014</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Diciembre 2014</a></li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            <section class="formulario col-md-4">
+              <div class="list-group ">
+              <button type="button" class="list-group-item">Ingresos</button>
+              <button type="button" class="list-group-item">Gastos</button>
+              <br>
+              <button type="button" class="list-group-item">Restaurantes</button>
+              <button type="button" class="list-group-item">Hogar</button>
+              <button type="button" class="list-group-item">División</button>
+              <button type="button" class="list-group-item">Viajes</button>
+              <button type="button" class="list-group-item">Carro</button>
+              </div>
+
+            </section>
+            <div class="pagos col-md-4">
+               <hr></hr>
+               <hr></hr>
+               <hr></hr>
+              </div>
+
+</div>
 </body>
 </html>

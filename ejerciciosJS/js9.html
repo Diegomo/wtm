@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+
+  function promedio(){
+    var arr = [];
+
+    var a = document.getElementById("a").value;
+    var b = document.getElementById("b").value;
+    var c = document.getElementById("c").value;
+
+    parseInt(a);
+    parseInt(b);
+    parseInt(c);
+
+    arr.push(a,b,c);
+
+    var contador=0;
+
+    for (var i=0; i<arr.length; i++)
+      {
+
+        var result = parseInt(arr[i]) + contador;
+        contador = parseInt(result);
+
+
+      }
+
+      var prom = result/3;
+      alert(prom);
+
+
+  }
+
+  </script>
+
+    <p>ingresa tres numeros</p>
+    <input type="text" id="a" size="2">
+    <input type="text" id="b" size="2">
+    <input type="text" id="c" size="2">
+    <input type="button" onClick="promedio()" value="resultado">
+
+</body>
+</html>

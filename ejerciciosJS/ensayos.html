@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<script>
+  function multipler() {
+
+  var numeros = [];
+
+  var n = document.getElementById("n").value;
+  var m = document.getElementById("m").value;
+  var s = document.getElementById("s").value;
+  var z = document.getElementById("z").value;
+
+  numeros.push(n,m,s);
+
+  var dobles  = numeros.map(function(num) {
+  var result = num * z;
+  alert(result);
+
+  });
+  }
+
+</script>
+  <p>ingresa tres numeros</p>
+    <input type="text" id="n" size="2">
+    <input type="text" id="m" size="2">
+    <input type="text" id="s" size="2">
+    <p>numero por el cual se multiplica</p>
+    <input type="text" id="z" size="3">
+    <input type="button" onClick="multipler()" value="resultado">
+    <script>
+
+       var valor = document.getElementById("result").value;
+
+    </script>
+
+</body>
+</html>

@@ -1,3 +1,6 @@
+* {
+ box-sizing: border-box;
+}
 
 
 
@@ -20,3 +23,44 @@ padding-left: 20px;
 .navbar {
     border-radius: 0px !important;
 }
+
+.btn-group {
+    margin-left: 904px;
+    margin-top: 15px;
+}
+
+.btn {
+  margin-left: 49px;
+}
+
+.form-control {
+    margin-left: 11px;
+}
+
+.list-group {
+  text-align: right;
+}
+
+.formulario {
+    padding-right: 264px !important;
+    padding-top: 6px !important;
+    padding-left: 10px !important;
+}
+
+hr {
+   background-color: black;
+  height: 10px;
+
+}
+
+.pagos {
+  width: 100% !important;
+  padding-left: 300px !important;
+  position: absolute !important;
+  float: right !important;
+  padding-top: 10px !important;
+
+}body {
+  font-size: 500px; }
+
+

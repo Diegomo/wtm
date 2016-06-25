@@ -9,15 +9,22 @@ body {
 }
 
 .home-wrapper {
-  background: url('../images/bg_2.jpg');
+  background: url('../images/bg_2.jpg') no-repeat, center, center top;
+  background-size: cover;
   color: white;
+}
 
-
+header {
+  background-color: rgba(48, 48, 48, 05);
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
 }
 
 header nav {
-float: right;
-margin: 10px;
+  display: flex;
+  float: right;
+  margin: 10px;
 }
 
 header nav a {
@@ -28,25 +35,28 @@ header nav a {
 }
 
 header nav a.active {
-background: #fed136;
-border-radius: 3px;
+  background: #fed136;
+  border-radius: 3px;
 }
 
 header .logo {
-font-size: 22px;
-border-radius: 3px;
+  font-size: 22px;
+  border-radius: 3px;
+  font-weight: normal;
+  margin-left: 274px;
 }
 
 #home {
-text-align: center;
-padding: 200px 0 150px;
+  text-align: center;
+  padding: 200px 0 150px;
 
 }
 
 #home h1{
-font-size: 68px;
-font-weight: normal;
-margin-bottom: 40px;
+  font-size: 68px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  line-height: 1.2;
 }
 
 #home p {
@@ -68,13 +78,25 @@ margin-bottom: 40px;
   border-radius: 50%;
   line-height: 50px;
   display: inline-block;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
 
+#home .social a:hover {
+  background: #fed136;
 }
 
 .container {
-  width: 992px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+#video {
+  background: black;
+  text-align: center;
+  padding: 30px 0 30px;
 }
 
 #servicios h2 {
@@ -84,19 +106,19 @@ margin-bottom: 40px;
 }
 
 #servicios .box {
-text-align: center;
-display: inline-block;
-width: 33%;
-padding: 10px;
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  padding: 10px;
 
 }
 
 #portafolio .box{
-display: inline-block;
-text-align: center;
-width: 31%;
-margin:1%;
-background-color: white;
+  display: inline-block;
+  text-align: center;
+  width: 31%;
+  margin:1%;
+  background-color: white;
 }
 
 #portafolio h2 {
@@ -107,4 +129,93 @@ background-color: white;
 
 #portafolio .box img{
   width: 100%;
+}
+
+#contacto {
+  background-color: #303030;
+  background-image: url(../images/map-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+#contacto h2 {
+ color: white;
+ text-align: center;
+ font-size: 32px;
+
+}
+
+#contacto input {
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#contacto textarea {
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+}
+
+#contacto button {
+  background-color: #fed136;
+  padding: 20px 40px;
+  border-color: #fed136;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+
+}
+
+section {
+  padding: 80px 0;
+}
+
+footer {
+  padding: 80px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1200px){
+body {
+
+}
+}
+
+@media only screen and (max-width: 992px){
+.home-wrapper {
+  width: 100%;
+}
+
+#home h1 {
+  font-size: 48px;
+}
+#home p {
+  font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 768px){
+header {
+
+}
+header nav {
+  float: none;
+
+}
+header .logo {
+  font-size: 18px;
+
+}
+
+header nav a {
+  padding: 5px;
+  margin-left: 5px;
+}
 }
