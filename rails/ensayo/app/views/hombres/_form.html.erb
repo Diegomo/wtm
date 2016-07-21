@@ -1,0 +1,32 @@
+<%= form_for(hombre) do |f| %>
+  <% if hombre.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(hombre.errors.count, "error") %> prohibited this hombre from being saved:</h2>
+
+      <ul>
+      <% hombre.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nombre %>
+    <%= f.text_field :nombre %>
+  </div>
+
+  <div class="field">
+    <%= f.label :apellido %>
+    <%= f.text_field :apellido %>
+  </div>
+
+  <div class="field">
+    <%= f.label :cedula %>
+    <%= f.number_field :cedula %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
